@@ -9,7 +9,7 @@ class MaterialAppParams {
   static ThemeData? darkTheme;
   static ThemeData? lightTheme;
   static ThemeMode? themeMode;
-  static String appName = 'login_view3_lego';
+  static String appName = 'my_widget_book';
   static BackButtonDispatcher? backButtonDispatcher;
   static List<NavigatorObserver>? navigatorObservers;
 }
