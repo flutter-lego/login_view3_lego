@@ -1,20 +1,27 @@
 [![lego project](https://img.shields.io/badge/powered%20by-lego-blue?logo=github)](https://github.com/melodysdreamj/lego)
 [![pub package](https://img.shields.io/pub/v/login_view3_lego.svg)](https://pub.dartlang.org/packages/login_view3_lego)
 
+[![](https://img.shields.io/badge/DISCORD-JOIN%20SERVER-5663F7?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zXXHvAXCug)
+[![](https://img.shields.io/badge/KakaoTalk-Join%20Room-FEE500?style=for-the-badge&logo=kakao)](https://open.kakao.com/o/gEwrffbg)
 # login_view3_lego
-Login view3 lego
+<img src="https://github.com/user-attachments/assets/57c8871a-4340-4a0a-bb08-89a33782df97" width="200" alt="toss_intro_page_lego">
 
-##  Installation
-1. open terminal in the lego project root directory, enter the following command for install cli.
-   and create a new lego project if you don't have one.
-```bash
-flutter pub global activate lego_cli
-lego create
-```
-2. in terminal, enter the following command for add lego to project.
-```bash
-lego add login_view3_lego
-```
+## Installation
+1. please enter the following command in the terminal to install the CLI:
+    ```bash
+    flutter pub global activate lego_cli
+    ```
+   * If this is your first time using `pub global`, Please refer to the [documentation](https://doc.junestory.com/etc/install-pub-global) for more information.
 
-## Usage
-Usage here
+
+2. To add Lego to your project, enter the following command in the terminal at the root of your project:
+   ```bash
+   lego add login_view3_lego
+   ```
+3. run the following command to generate the widget:
+    ```bash
+    flutter run -d chrome lib/widget_book/login_view3_lego/_/_.dart
+    ```
+
+## Creating a New Widget Guide
+If you want to create a new widget, please refer to the documentation here: [Create a Widget](https://doc.junestory.com/widgetbook/create-widget)widget.
