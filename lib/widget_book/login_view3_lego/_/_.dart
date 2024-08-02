@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../../../../../../main.dart';
-
 class NewView extends StatefulWidget {
   const NewView({super.key});
 
@@ -17,7 +15,7 @@ class _NewViewState extends State<NewView> {
       _showPassword = !_showPassword;
     });
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -208,6 +206,9 @@ class _NewViewState extends State<NewView> {
   }
 }
 
+
 main() async {
-  return buildApp(home: NewView());
+  return runApp(MaterialApp(
+    home: NewView(),
+  ));
 }
